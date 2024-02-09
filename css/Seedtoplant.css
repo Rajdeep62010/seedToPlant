@@ -1,0 +1,206 @@
+#menu li{
+    display: inline;
+    padding: 15px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+section{
+    border: 1px solid rgb(17, 89, 3);
+}
+#whatBox{
+    color: rgb(209, 119, 9);
+    margin-top: 20px;
+    font-weight: 700;
+    /* border: 1px solid red; */
+}
+#prodBox{
+  color: rgb(209, 119, 9);
+  padding-top: 6px;
+    font-weight: 700;
+    /* border: 1px solid red; */
+    padding-bottom: 30px;
+}
+
+#whyBox{
+     color: rgb(209, 119, 9);
+    margin-top: 20px;
+    font-weight: 700; 
+}
+
+h2{
+    color: rgb(209, 119, 9);
+}
+h5{
+    margin-top: 20px;
+}
+.col-md-6 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.col-md-6 li{
+   font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.box{
+    margin-top: 60px;
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(255, 183, 0);
+}
+.col-lg-4 .card{
+    box-shadow: 5px 5px 15px gray;
+}
+.col-lg-4 p{
+    margin-left: 20px;
+   
+}
+.col-lg-4 h5{
+    margin: 20px 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.col-lg-4 img{
+    margin: auto;
+}
+.container{
+    margin-top: 50px;
+}
+.fa-solid{
+    color:rgb(209, 119, 9);
+}
+.box2{
+    background-color: rgb(203, 251, 251);
+}
+.float{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 40px;
+    /* background-color: #25d366; */
+    /* color: #FFF; */
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+.carousel-item img{
+    /* height: 60px; */
+    width: 10px;
+}
+#banner{
+    background-image: url("C:\Users\Rajdeep Singh\Downloads\bootstrap-5.2.0-dist\bootstrap-5.2.0-dist\Child-min.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.gallery ul{
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.partnerCont{
+    margin: 70px;    
+}
+.gallery{
+    margin-top: 50px;
+}
+.gallery img{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
+#mainCont{
+            display: flex;
+            /* width: 50%; */
+           justify-content: space-around;
+
+        }
+
+        .conactDetails{
+            display: flex;
+            width: 80%;
+            gap: 30px;
+        }
+        .mail{
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+            background-color:bisque;
+            width: 280px;
+            height: 150px;
+            margin-top: 20px;
+            margin-left: 10px;
+            padding: 5px;
+        }
+        .cll{
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+            background-color:bisque;
+            width: 250px;
+            height: 150px;
+            margin-top: 20px;
+            margin-left: 150px;
+        }
+        .cll h3{
+            /* margin-top: 20px; */
+            padding: 15px;
+        }
+        .cll h4{
+            margin-bottom: 10px;
+            color:rgb(49, 204, 204);
+        }
+        .mail h4{
+            color:rgb(49, 204, 204);
+}
+.cont{
+    text-align: center;
+    border: 1px solid red;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    
+}
+.leftCont{
+    margin-top: 20px;
+    margin-left: 50px;
+    /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;     */
+}
+.rightCont{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 450px;
+    width: 350px;
+    background-color: bisque;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.rightCont input{
+margin-top: 10px;
+margin-left: 20px;
+}
+.rightCont textarea{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.butn button{
+    margin-left: 200px;
+    margin-top: 10px;
+    border: none;
+    padding: 7px;
+    letter-spacing: 0.8px;
+    background-color:darkblue;
+    color: white;
+    border-radius: 5px;
+
+
+}
+.courtesy{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+
